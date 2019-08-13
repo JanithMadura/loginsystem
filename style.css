@@ -1,0 +1,150 @@
+.main-wrapper{
+    margin: 0 auto ;
+    width:1000px;
+}
+
+a{
+text-decoration: none;
+}
+body{
+    background-color: #ccc;
+}
+
+header nav{
+    width:100%;
+    height:80px;
+    background-color: #fff;
+
+}
+header nav ul{
+   float:left;
+}
+header nav ul li{
+    float:left;
+    list-style: none;
+ }
+ 
+
+header nav ul li a{
+    font-family: arial;
+    font-size: 16px;
+    color:#111;
+    line-height: 30px;
+}
+header .nav_login{
+    float: right;
+
+}
+header .nav_login form{
+    float: left;
+    padding-top: 15px;
+}
+
+header .nav_login form input {
+    float: left;
+   width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border:none;
+    background-color: #ccc;
+    font-family: arial;
+    font-size: 14px;
+    color:#111;
+    line-height: 30px;
+
+
+}
+
+header .nav_login form button{
+    float: left;
+   width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border:none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color:#111;
+    cursor: pointer;
+
+
+}
+
+header .nav_login form button:hover{
+    background-color: aqua;
+
+}
+
+
+header .nav_login a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #fff;
+    float: left ;
+font-family: arial;
+font-size: 16px;
+color: #111;
+line-height: 63px;
+
+}
+
+.main-container{
+    padding-top: 20px;
+}
+
+.main-container h2{
+    font-family:'Times New Roman';
+font-size: 40px;
+color: rgba(17, 17, 17, 0.733);
+line-height: 50px;
+text-align: center;
+}
+
+
+
+
+/*signup form*/
+
+
+.signup-form{
+    width:400px;
+    margin:0 auto;
+    padding-top: 20px;
+}
+
+.signup-form input{
+
+   width: 90%;
+    height: 30px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border:none;
+    background-color: #fff;
+    font-family: serif;
+    font-size: 16px;
+    color:rgb(112, 90, 238);
+    line-height: 40px;
+
+
+}
+.signup-form button{
+    display: block;
+    border-radius: 5px;
+    margin:0 auto;
+    width: 20%;
+     height: 20px;
+     border: none;
+     background-color: #222;
+     font-family: arial;
+     font-size: 16px;
+     color:#fff;
+     cursor:pointer; 
+     float: right;
+ }
+ 
+ .signup-form button:hover{
+     background-color: rgba(97, 107, 243, 0.582);
+   }
